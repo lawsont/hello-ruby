@@ -15,3 +15,8 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+mylist = ["kale","basil","tomatos", "romaine", "red oak lettuce"]
+friendlist = ["popsicles", "protien powder", "coffee cake", "cinnamon toast crunch", "V8 Juice"]
+apartmentlist = mylist + friendlist
+puts apartmentlist.sort 
+

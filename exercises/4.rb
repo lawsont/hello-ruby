@@ -27,3 +27,8 @@ weather_data = {
   ]
 }
 
+todaysweather = "Today's weather is #{weather_data[:current][:conditions]} with a high of #{weather_data[:current][:temperature]}"
+puts todaysweather
+tomorrowsweather = "Tomorrow's weather will be #{weather_data[:forecast][0][:temperature]} with a high of #{weather_data[:forecast][0][:conditions]} weather"
+puts tomorrowsweather
+

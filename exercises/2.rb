@@ -27,3 +27,18 @@
 # We can specify multiple conditions with || (OR) and && (AND)
 # if dinner == "tacos" || dinner == "pizza"
 
+dice1 = rand(1..6)
+dice2 = rand(1..6)
+total = dice1 + dice2
+
+if total == 7 || total == 11
+    puts "YOU WIN!"
+elsif total == 2 || total == 3 || total == 12
+    puts "YOU LOSE!"
+else
+    puts "The point is #{total}"
+end    
+    
+    
+
+

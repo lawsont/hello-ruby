@@ -4,6 +4,7 @@
 
 # EXERCISE
 # Play craps (roll two dice)
+
 # When executed, this program should print out two random
 # numbers, one on each line, simulating the roll of two
 # dice. Set two variables, with names that make sense,
@@ -20,4 +21,9 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+dice1 = rand(1..6)
+dice2 = rand(1..6)
+total = dice1 + dice2
+puts "#{dice1} #{dice2}"
+puts "The total is #{total}"
 
